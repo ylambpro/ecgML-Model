@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block style %}<link rel="stylesheet" href="{{url_for('static', filename = 'css/help.css')}}">{% endblock %}
+{% block title %} Help {% endblock %}
+
+{% block body %}
+
+    <div class="container min-vh-100">
+
+        <ul class="list-group list-group-flush mt-5 mb-5">
+            <li class="list-group-item text-info-emphasis fs-3"><i class="bi bi-info-circle" style="color: cornflowerblue;"></i> Aide</li>
+            <li class="list-group-item">Le système permet de donner la catégorie (Normal/Anormal) d'un électrocardiogramme (ensemble de points de lecture)</li>
+            <li class="list-group-item">Enregistrer les données dans un fichier au format csv, 140 points de lecture au moins par ligne</li>
+        </ul>
+
+    </div>
+    
+{% endblock %}
