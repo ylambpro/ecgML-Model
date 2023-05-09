@@ -15,12 +15,19 @@ Formation du modèle
 
 ecgML-Model/
 >datas : le sous répertoire contenant le jeu de données
+
 >ecgML Model.ipyng : le notebook (conception du modèle)
 
 Application de prédictions
 
-Pour l'interprétation de nouvelles données, une application basée sur [le micro framework Flask](https://flask.palletsprojects.com/en/2.3.x/) a été mise en place. Le fichiers sources sont dans le sous répertoire predictions_app.
+Pour l'interprétation de nouvelles données, une application basée sur [le micro framework Flask](https://flask.palletsprojects.com/en/2.3.x/) a été mise en place. Le fichiers sources sont dans le sous répertoire predictions_app. L'exécution de la dernière cellule du notebook sauvegarde le modèle former dans le sous-dossier predictions_app/model du dossier de l'application de prédiction développée à l'aide du micro framework Flask.
 
-ecgML-Model/predictions_app/
->model : sous répertoire contenant le modèle générer par le notebook.
+Le démarrage de l'application de prédictions est relativement simple:
 
+_Pour la première exécution:_
+- [créer un environnement virtuel](https://docs.python.org/fr/3/tutorial/venv.html) dans le dossier predictions_app et l'activer
+- installer les différents packages à l'aide la commande (venv)..\predictions_app > pip install -r requirements.txt
+
+_Pour les prochaines exécutions:_
+- activer l'environnement virtuel
+- exécuter la commande > python app.py
