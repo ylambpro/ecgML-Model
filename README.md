@@ -41,10 +41,10 @@ _Pour les prochaines exécutions :_
 
 _Format du fichier contenant de nouvelles données :_
 Les nouvelles données électrocardiogramme à classifer doivent être enregistrer dans un fichier csv sans en-tête.
-![Exemple de format de fichier](https://github.com/ylambpro/ecgML-Model/blob/main/predictions_app/static/captures/Capture-202023-05-09-20170704.png)
+![Exemple de format de fichier](https://github.com/ylambpro/ecgML-Model/blob/main/predictions_app/static/captures/Capture-2023-05-09-170704.png)
 
 _Le formulaire de chargement de nouvelles données à prédire :_
 ![Aperçu du formulaire](https://github.com/ylambpro/ecgML-Model/blob/main/predictions_app/static/captures/Capture-2023-05-08-153630.png)
 
 _Exemple du résultat d'une exécution :_
-![Aperçu d'un résultat d'exécution](https://github.com/ylambpro/ecgML-Model/blob/main/predictions_app/static/captures/Capture-2023-05-08-20153709.png)
+![Aperçu d'un résultat d'exécution](https://github.com/ylambpro/ecgML-Model/blob/main/predictions_app/static/captures/Capture-2023-05-08-153709.png)
