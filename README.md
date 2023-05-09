@@ -20,7 +20,7 @@ ecgML-Model/
 >ecgML Model.ipyng : le notebook (conception du modèle)
 
 **_Application de prédictions_**
----
+
 Pour l'interprétation de nouvelles données, une application basée sur [le micro framework Flask](https://flask.palletsprojects.com/en/2.3.x/) a été mise en place. Les fichiers sources sont dans le sous répertoire predictions_app. L'exécution de la dernière cellule du notebook sauvegarde le modèle former dans le sous-dossier model du dossier de l'application de prédiction développée à l'aide du micro framework Flask.
 
 Le démarrage de l'application de prédictions est relativement simple :
