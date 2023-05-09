@@ -6,11 +6,12 @@ Le projet consiste à former un modèle de Machine Learning capable de détermin
 Le jeu de données utilisé est issu de la plateforme [OpenML](https://www.openml.org/search?type=data&status=active&sort=runs&id=44793).
 Cet ensemble de données contient les lectures ECG de 4998 patients. Chaque ligne correspond à un seul électrocardiogramme complet d'un patient. Chaque ECG (ligne) est composé de 140 points de données (lectures) et d’une colonne étiquette (1 si l’ECG est normal ou 0 si non).
 
-Description des colonnes :
+Description des colonnes du jeu de données :
 - Les colonnes 0 à 139 (nommés : col_0, col_1, col_2, …, col139) contiennent le point de données ECG pour un patient particulier. Ce sont des nombres à virgule flottante.
 - La colonne (col_140) étiquette qui indique si l'ECG est normal ou anormal. C'est une variable catégorielle dont la valeur est soit 0 soit 1. C’est la variable cible (c’est-à-dire la variable à prédire)
 
 ## Structure du projet
+
 **_Le répertoire principal_**
 
 ecgML-Model/
