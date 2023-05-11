@@ -26,15 +26,15 @@ Pour l'interprétation de nouvelles données, une application basée sur [le mic
 Le démarrage de l'application de prédictions est relativement simple :
 
 _Pour la première exécution :_
-- [x] ouvrir l'invide de commande en mode administrateur
+- [x] ouvrir l'invite de commande en mode administrateur
 - [x] se placer dans le repertoire predictions_app
 - [x] [créer un environnement virtuel](https://docs.python.org/fr/3/tutorial/venv.html) dans le dossier predictions_app (**>** python -m venv nom_env)
 - [x] activer l'environnement virtuel (**>** nom_env/Scripts/activate)
 - [x] installer les différents packages nécessaires à l'aide la commande (**>** pip install -r requirements.txt)
-- [x] exécuter la commande (**>** python app.y) pour lancer l'application
+- [x] exécuter la commande (**>** python app.py) pour lancer l'application
 
 _Pour les prochaines exécutions :_
-- [x] ouvrir l'invide de commande en mode administrateur
+- [x] ouvrir l'invite de commande en mode administrateur
 - [x] se placer dans le repertoire predictions_app
 - [x] activer l'environnement virtuel
 - [x] exécuter la commande (**>** python app.py) pour lancer l'application
