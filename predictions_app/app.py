@@ -18,13 +18,11 @@ def allowed_file(filename):
 def index():
     predictions = None
     if request.method == 'POST':
-        if 'file' not in request.files:
-            flash('Aucune partie de fichier')
-            return render_template('index.html', interpretations = predictions)
+        if ('file' not in request.files):
+            flash('Aucun fichier sélectionner !')
         csvfile = request.files['file']
         if csvfile.filename == '':
-            flash('Aucun fichier sélectionné')
-            return render_template('index.html', interpretations = predictions)
+            flash('Aucun fichier sélectionné !')
         if csvfile and allowed_file(csvfile.filename):
             filename = secure_filename(csvfile.filename)
             csvfile.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
